@@ -5,6 +5,8 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
+    padding: 0;
 }
 main{
     display: flex;
@@ -16,12 +18,53 @@ main{
     width: 870px;
     padding: 30px;
     margin-top: 21px;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 hr{
     border: 1px solid #D1D1D1
     ;
     margin-bottom: 27px;
+}
+/* header Styles */
+nav .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 100%;
+    height: 94px;
+    background-color: #562EFF;
+}
+.header{
+    width: 870px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 40px;
+    height: 50px;
+    margin-left: 210px;
+}
+.logo span{
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+}
+.manu{
+    display: flex;
+    align-items: center;
+}
+.manu a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    font-size: 18px;
+    
+}
+.manu img{
+    margin-right: 210px;
 }
 
 /* top players style */
@@ -93,6 +136,9 @@ height: 56px;
     .course{
         width: 252.42px;
         height:269.79px;
+        border-radius: 10px;
+        box-shadow: 5px 10px 10px #F3F1FF;
+        
     }
     .course-info{
         display: flex;
@@ -128,7 +174,22 @@ height: 56px;
     background-color: #FFE4E8;
     padding: 5px;
     border-radius: 25px;
+    margin-right: 20px;
 }
+/* Footer Styles */
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(14, 14, 59);
+}
+footer p{
+    text-align: center;
+    font-size: 16px;
+    color: #adadad;
+    margin-top: 20px;
+    padding-top: 42px;
+}
+
 
 /* --------------------
     Media Queries
